@@ -1,0 +1,328 @@
+{
+ "smiler": {
+  "id": "smiler",
+  "nombre": "Entity 3 — Smiler",
+  "glyph": "smiler",
+  "color": "#dfe9ff",
+  "descripcion": "Depredadores espectrales que habitan la oscuridad. Solo se ven sus ojos y su enorme sonrisa luminosa flotando en la negrura. Inteligentes, pacientes y letales.",
+  "velocidad": 2,
+  "dano": 55,
+  "danoCordura": 15,
+  "deteccion": {
+   "tipo": "oscuridad",
+   "radio": 7
+  },
+  "comportamiento": "acecho_oscuridad",
+  "evitar": "Nunca lo pierdas de vista y permanece en zonas iluminadas: no puede cazarte bajo la luz.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_3",
+  "vida": 60
+ },
+ "faceling": {
+  "id": "faceling",
+  "nombre": "Entity 9 — Faceling",
+  "glyph": "faceling",
+  "color": "#c9b8a8",
+  "descripcion": "Humanoides sin rostro, de las entidades más comunes de las Backrooms. La mayoría deambula con indiferencia; los adultos pueden volverse agresivos si se les molesta.",
+  "velocidad": 1,
+  "dano": 12,
+  "danoCordura": 4,
+  "deteccion": {
+   "tipo": "contacto",
+   "radio": 1
+  },
+  "comportamiento": "errante",
+  "evitar": "No los toques ni bloquees su camino; si no los molestas, te ignoran.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_9",
+  "vida": 25
+ },
+ "hound": {
+  "id": "hound",
+  "nombre": "Entity 8 — Hound",
+  "glyph": "hound",
+  "color": "#9e7b6b",
+  "descripcion": "Antiguos humanos deformados por el Síndrome de Egremond que ahora cazan a cuatro patas. Rápidos, territoriales y siempre hambrientos.",
+  "velocidad": 2,
+  "dano": 30,
+  "danoCordura": 6,
+  "deteccion": {
+   "tipo": "vista",
+   "radio": 8
+  },
+  "comportamiento": "persigue",
+  "evitar": "Rompe su línea de visión girando esquinas; pierden el rastro con facilidad.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_8",
+  "vida": 40
+ },
+ "deathmoth": {
+  "id": "deathmoth",
+  "nombre": "Entity 4 — Deathmoth",
+  "glyph": "deathmoth",
+  "color": "#8f8fa8",
+  "descripcion": "Polillas colosales de metro y medio de envergadura. Las atrae cualquier fuente de luz; las hembras son territoriales y agresivas.",
+  "velocidad": 2,
+  "dano": 18,
+  "danoCordura": 3,
+  "deteccion": {
+   "tipo": "luz",
+   "radio": 10
+  },
+  "comportamiento": "atraida_luz",
+  "evitar": "Apaga la linterna cuando oigas su aleteo: sin luz pierden todo interés en ti.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_4",
+  "vida": 25
+ },
+ "clump": {
+  "id": "clump",
+  "nombre": "Entity 5 — Clump",
+  "glyph": "clump",
+  "color": "#b06a5f",
+  "descripcion": "Masas de extremidades humanas que anidan en conductos y espacios estrechos. Dejan colgar un brazo como cebo y esperan. Son emboscadores pacientes y brutales.",
+  "velocidad": 0,
+  "dano": 45,
+  "danoCordura": 12,
+  "deteccion": {
+   "tipo": "adyacente",
+   "radio": 1
+  },
+  "comportamiento": "emboscada",
+  "evitar": "Desconfía de rincones, rejillas y bultos junto a las paredes: no te acerques a lo que no puedas identificar.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_5",
+  "vida": 50
+ },
+ "duller": {
+  "id": "duller",
+  "nombre": "Entity 6 — Duller",
+  "glyph": "duller",
+  "color": "#4a4a58",
+  "descripcion": "Siluetas alargadas y oscuras con rostros fundidos. Se mueven sin ver ni oír, impasibles a la oscuridad, y drenan la vitalidad de quien alcanzan.",
+  "velocidad": 1,
+  "dano": 20,
+  "danoCordura": 18,
+  "deteccion": {
+   "tipo": "vista",
+   "radio": 6
+  },
+  "comportamiento": "persigue",
+  "evitar": "Son lentos pero incansables: mantén distancia y no dejes que te arrinconen.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_6",
+  "vida": 45
+ },
+ "skinstealer": {
+  "id": "skinstealer",
+  "nombre": "Entity 10 — Skin-Stealer",
+  "glyph": "skinstealer",
+  "color": "#d8c090",
+  "descripcion": "Se visten con la piel de sus víctimas y se hacen pasar por supervivientes. Parecen humanos hasta que estás lo bastante cerca para ver las costuras.",
+  "velocidad": 1,
+  "dano": 40,
+  "danoCordura": 20,
+  "deteccion": {
+   "tipo": "vista",
+   "radio": 5
+  },
+  "comportamiento": "imita",
+  "evitar": "Sospecha de cualquier «persona» que te espere inmóvil. Si parece amistosa y no habla, no te acerques.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_10",
+  "vida": 45
+ },
+ "window": {
+  "id": "window",
+  "nombre": "Entity 2 — Predatory Window",
+  "glyph": "window",
+  "color": "#7a9bb8",
+  "descripcion": "Ventanas depredadoras que aguardan en las paredes de los interiores. Lo que ves a través del cristal es el cebo; el marco es la boca.",
+  "velocidad": 0,
+  "dano": 35,
+  "danoCordura": 8,
+  "deteccion": {
+   "tipo": "adyacente",
+   "radio": 1
+  },
+  "comportamiento": "estatica_trampa",
+  "evitar": "No te acerques a ventanas en niveles donde no debería haberlas.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_2",
+  "vida": 40
+ },
+ "anethika": {
+  "id": "anethika",
+  "nombre": "Entity 22 — Anethika",
+  "glyph": "anethika",
+  "color": "#8f5fb0",
+  "descripcion": "Gigantes encorvados de casi tres metros con cuellos retorcidos. Ágiles, silenciosos y con un hambre insaciable de vidas humanas.",
+  "velocidad": 3,
+  "dano": 60,
+  "danoCordura": 15,
+  "deteccion": {
+   "tipo": "vista",
+   "radio": 9
+  },
+  "comportamiento": "persigue",
+  "evitar": "Casi imposible dejarlo atrás corriendo: escóndete antes de que te vea, o reza.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_22",
+  "vida": 80
+ },
+ "spine": {
+  "id": "spine",
+  "nombre": "Entity 35 — Spine",
+  "glyph": "spine",
+  "color": "#a8a08a",
+  "descripcion": "Amasijos de hueso humano y enredaderas con forma vagamente humanoide. Apenas hacen ruido; cuando notas uno, ya está demasiado cerca.",
+  "velocidad": 1,
+  "dano": 25,
+  "danoCordura": 10,
+  "deteccion": {
+   "tipo": "sigilo",
+   "radio": 3
+  },
+  "comportamiento": "acecho_oscuridad",
+  "evitar": "Observa el suelo y las esquinas: parecen escombros hasta que se mueven.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_35",
+  "vida": 35
+ },
+ "needlelimb": {
+  "id": "needlelimb",
+  "nombre": "Entity 38 — Needlelimb",
+  "glyph": "needlelimb",
+  "color": "#3a3a45",
+  "descripcion": "Figuras negras y óseas de un solo brazo y una sola pierna que flotan en silencio. Sus cinco dedos-aguja se alimentan de la consciencia de sus víctimas.",
+  "velocidad": 1,
+  "dano": 15,
+  "danoCordura": 30,
+  "deteccion": {
+   "tipo": "vista",
+   "radio": 7
+  },
+  "comportamiento": "persigue",
+  "evitar": "Huele a cuerpos podridos: si notas ese hedor, cambia de dirección de inmediato.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_38",
+  "vida": 40
+ },
+ "silverslime": {
+  "id": "silverslime",
+  "nombre": "Entity 44 — Silver Slime",
+  "glyph": "silverslime",
+  "color": "#c0c8d0",
+  "descripcion": "Charcos plateados de moho mucilaginoso que parecen mercurio. Duermen hasta que un ser de sangre caliente pasa cerca; su toque es extremadamente tóxico.",
+  "velocidad": 1,
+  "dano": 50,
+  "danoCordura": 5,
+  "deteccion": {
+   "tipo": "adyacente",
+   "radio": 2
+  },
+  "comportamiento": "estatica_trampa",
+  "evitar": "Jamás pises un charco brillante. Ni siquiera para comprobar si es agua de almendras.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_44",
+  "vida": 30
+ },
+ "aranea": {
+  "id": "aranea",
+  "nombre": "Entity 62 — Aranea Membri",
+  "glyph": "aranea",
+  "color": "#2f2f38",
+  "descripcion": "Entidades arácnidas de dos metros con cráneo de carnívoro, capaces de fundirse con las sombras. Al caminar producen un estruendo metálico inconfundible.",
+  "velocidad": 3,
+  "dano": 55,
+  "danoCordura": 12,
+  "deteccion": {
+   "tipo": "vista",
+   "radio": 8
+  },
+  "comportamiento": "persigue",
+  "evitar": "El sonido metálico te avisa antes de verla: úsalo para huir en dirección contraria.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_62",
+  "vida": 70
+ },
+ "predatorydoor": {
+  "id": "predatorydoor",
+  "nombre": "Entity 63 — Predatory Door",
+  "glyph": "predatorydoor",
+  "color": "#8a6a4a",
+  "descripcion": "Depredadores que se disfrazan de puertas de salida. Tan inteligentes como un cuervo, y mucho más pacientes.",
+  "velocidad": 0,
+  "dano": 40,
+  "danoCordura": 15,
+  "deteccion": {
+   "tipo": "adyacente",
+   "radio": 1
+  },
+  "comportamiento": "estatica_trampa",
+  "evitar": "Examina las salidas antes de cruzarlas: una puerta que respira no es una puerta.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_63",
+  "vida": 50
+ },
+ "cell": {
+  "id": "cell",
+  "nombre": "Entity 64 — Cell",
+  "glyph": "cell",
+  "color": "#a8d0c8",
+  "descripcion": "Ojos gigantes unicelulares que flotan por niveles húmedos. Su interior es un gel altamente ácido, y su mucosa pegajosa no suelta a la presa.",
+  "velocidad": 2,
+  "dano": 35,
+  "danoCordura": 8,
+  "deteccion": {
+   "tipo": "vista",
+   "radio": 7
+  },
+  "comportamiento": "persigue",
+  "evitar": "Flotan en línea recta: usa muros y esquinas para cortar su trayectoria.",
+  "url": "https://backrooms.fandom.com/wiki/Entity_64",
+  "vida": 35
+ },
+ "hunter": {
+  "id": "hunter",
+  "nombre": "The Hunter (Level 14)",
+  "glyph": "hunter",
+  "color": "#b03030",
+  "descripcion": "El cazador que exterminó a la colonia T.14.R.G. del hospital. Pasos lejanos y susurros anuncian su llegada: nunca deja de buscar.",
+  "velocidad": 2,
+  "dano": 70,
+  "danoCordura": 20,
+  "deteccion": {
+   "tipo": "global",
+   "radio": 99
+  },
+  "comportamiento": "cazador",
+  "evitar": "No puedes esconderte para siempre: encuentra una salida antes de que sus pasos te alcancen.",
+  "url": "https://backrooms.fandom.com/wiki/Level_14",
+  "vida": 150
+ },
+ "false_puddle": {
+  "id": "false_puddle",
+  "nombre": "False Puddle",
+  "glyph": "false_puddle",
+  "color": "#a0d4e8",
+  "descripcion": "Un charco de Almond Water que oculta una boca circular llena de dientes bajo la superficie. Permanece inmóvil esperando que un incauto caiga dentro.",
+  "velocidad": 0,
+  "dano": 45,
+  "danoCordura": 10,
+  "deteccion": {
+   "tipo": "contacto",
+   "radio": 0.6
+  },
+  "comportamiento": "estatica_trampa",
+  "evitar": "Examina los charcos antes de pisarlos. El Almond Water real no tiene dientes.",
+  "url": "https://backrooms.fandom.com/wiki/Level_1",
+  "vida": 25,
+  "esconditeInicial": true
+ },
+ "painting": {
+  "id": "painting",
+  "nombre": "Painting",
+  "glyph": "painting",
+  "color": "#c8a860",
+  "descripcion": "Un cuadro con un marco dorado que contiene un retrato perturbador. Los ojos siguen tus movimientos. Si te acercas demasiado, los brazos del cuadro te arrastrarán dentro.",
+  "velocidad": 0,
+  "dano": 35,
+  "danoCordura": 20,
+  "deteccion": {
+   "tipo": "adyacente",
+   "radio": 1
+  },
+  "comportamiento": "estatica_trampa",
+  "evitar": "No te acerques a los cuadros con figuras orgánicas. Si los ves, aléjate.",
+  "url": "https://backrooms.fandom.com/wiki/Level_1",
+  "vida": 40,
+  "esconditeInicial": true
+ }
+}

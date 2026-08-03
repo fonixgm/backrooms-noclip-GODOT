@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3 uid="uid://hubscene"]
+[ext_resource type="Script" path="res://levels/the_hub/the_hub.gd" id="1"]
+[node name="TheHub" type="Node3D"]
+script = ExtResource("1")
