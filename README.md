@@ -63,6 +63,10 @@ Los Pull Requests son bienvenidos. Solo el autor acepta cambios en este reposito
 
 ## Licencia
 
+- **Código y juego**: bajo [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/),
+  igual que el proyecto original ([AgenteMaxo/backrooms-noclip](https://github.com/AgenteMaxo/backrooms-noclip),
+  © MeltStudio). Permite usar, estudiar, modificar y distribuir el port libremente
+  para cualquier fin **no comercial**; ver el archivo `LICENSE` para el texto completo.
 - **Lore y textos derivados de la wiki**: el contenido descriptivo procede de
   [backrooms.fandom.com](https://backrooms.fandom.com) y pertenece a sus autores
   bajo [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); cada ficha
